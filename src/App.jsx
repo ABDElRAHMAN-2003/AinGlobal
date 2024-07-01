@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { Hero, Navbar, StarsCanvas,Vision } from "./components";
+import { Hero, Navbar, StarsCanvas,Vision,Footer } from "./components";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
           <Hero />
           <Vision/>
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

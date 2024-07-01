@@ -23,11 +23,11 @@ const FallingContainer = () => {
   }, [controls, inView]);
 
   return (
-    <div ref={ref} className="relative h-screen w-screen ">
+    <div ref={ref} className="relative h-screen w-[1400px] ml-64 ">
       <motion.img
         src={Container}
         alt="Falling Container"
-        initial={{ x: "-100vw", y: "-50vh", opacity: 0 ,duration:2}}
+        initial={{ x: "-100vw", y: "-50vh", opacity: 0 ,duration:25}}
         animate={controls}
         className="absolute top-30 left-[-800px] w-full h-full object-contain"
       />
